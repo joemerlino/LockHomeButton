@@ -1,5 +1,4 @@
-TARGET := iphone:clang
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = LockHomeButtonToggle
 LockHomeButtonToggle_FILES = Switch.x

@@ -1,4 +1,4 @@
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LockHomeButton
 LockHomeButton_FILES = Tweak.xm
