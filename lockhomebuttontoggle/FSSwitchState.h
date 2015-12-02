@@ -6,6 +6,5 @@ typedef enum {
 	FSSwitchStateIndeterminate = -1
 } FSSwitchState;
 
-FOUNDATION_EXTERN NSString *NSStringFromFSSwitchState(FSSwitchState state);
-
-FOUNDATION_EXTERN FSSwitchState FSSwitchStateFromNSString(NSString *stateString);
+extern NSString *NSStringFromFSSwitchState(FSSwitchState state);
+extern FSSwitchState FSSwitchStateFromNSString(NSString *stateString);

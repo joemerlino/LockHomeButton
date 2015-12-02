@@ -1,8 +1,8 @@
 TARGET := iphone:clang
-include $(THEOS)/makefiles/common.mk
+include theos/makefiles/common.mk
 
 BUNDLE_NAME = LockHomeButtonToggle
-LockHomeButtonToggle_FILES = Switch.xm
+LockHomeButtonToggle_FILES = Switch.x
 LockHomeButtonToggle_FRAMEWORKS = UIKit
 LockHomeButtonToggle_LIBRARIES = flipswitch
 LockHomeButtonToggle_INSTALL_PATH = /Library/Switches

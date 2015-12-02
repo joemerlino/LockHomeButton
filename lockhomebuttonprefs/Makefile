@@ -1,8 +1,10 @@
 TARGET := iphone:clang
-include $(THEOS)/makefiles/common.mk
+TARGET_SDK_VERSION := 8.1
+ARCHS := armv7 arm64
+include theos/makefiles/common.mk
 
 BUNDLE_NAME = LockHomeButtonPrefs
-LockHomeButtonPrefs_FILES = LockHomeButtonPrefsListController.m
+LockHomeButtonPrefs_FILES = LockHomeButtonPrefs.mm
 LockHomeButtonPrefs_INSTALL_PATH = /Library/PreferenceBundles
 LockHomeButtonPrefs_FRAMEWORKS = UIKit
 LockHomeButtonPrefs_PRIVATE_FRAMEWORKS = Preferences
