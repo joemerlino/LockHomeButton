@@ -9,7 +9,7 @@
 static NSString *nsDomainString = @"com.iamjamieq.lockhomebutton";
 static NSString *nsNotificationString = @"com.iamjamieq.lockhomebutton.preferencechanged";
 
-@interface LockHomeButtonToggleSwitch: NSObject <FSSwitchDataSource>
+@interface LockHomeButtonToggleSwitch : NSObject <FSSwitchDataSource>
 @end
 
 @implementation LockHomeButtonToggleSwitch
